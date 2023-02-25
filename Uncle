@@ -1,0 +1,14 @@
+
+local Picture = Drawing.new("Image")
+
+
+Picture.Data = game:HttpGet('https://raw.githubusercontent.com/DanialSugma/Image-Test/main/unknown.bmp')
+
+Picture.Visible = true
+
+Picture.Size = Vector2.new(3060, 1450)
+Picture.Position = Vector2.new(0, 0)
+
+
+
+
